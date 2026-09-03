@@ -1,0 +1,38 @@
+# ============================================================
+# .gitignore
+# ============================================================
+
+# ---- Secrets & Environment ----
+.env
+.env.*
+!.env.example
+
+# ---- OS generated ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ---- Build output ----
+dist/
+build/
+.next/
+out/
+
+# ---- Logs ----
+*.log
+
+# ---- WhatsApp chat source (keep private) ----
+whatsapp_chat/
+*.zip
